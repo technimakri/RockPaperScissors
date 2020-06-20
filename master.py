@@ -17,7 +17,6 @@ if name not in rating_dict:
 shapes = input("Enter a list of possible shapes separated only by a comma: ").split(",")
 if shapes == ['']:
     shapes = default_shapes
-print(shapes)
 print("Okay, let's start")
 
 def lose_against(user_input):
